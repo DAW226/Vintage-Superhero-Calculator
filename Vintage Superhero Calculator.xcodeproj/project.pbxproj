@@ -12,6 +12,9 @@
 		5B066A0D1DD230A700253BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B066A0B1DD230A700253BFF /* Main.storyboard */; };
 		5B066A0F1DD230A700253BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B066A0E1DD230A700253BFF /* Assets.xcassets */; };
 		5B066A121DD230A700253BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B066A101DD230A700253BFF /* LaunchScreen.storyboard */; };
+		5B0CF3791E39011A000D202A /* SUPERHERO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B0CF3781E39011A000D202A /* SUPERHERO.ttf */; };
+		5B0CF37B1E39065B000D202A /* Cartoon_Punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B0CF37A1E39065B000D202A /* Cartoon_Punch.wav */; };
+		5B0CF37D1E390664000D202A /* Cartoon_Grunt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B0CF37C1E390664000D202A /* Cartoon_Grunt.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5B066A0E1DD230A700253BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B066A111DD230A700253BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B066A131DD230A700253BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0CF3781E39011A000D202A /* SUPERHERO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SUPERHERO.ttf; sourceTree = "<group>"; };
+		5B0CF37A1E39065B000D202A /* Cartoon_Punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cartoon_Punch.wav; sourceTree = "<group>"; };
+		5B0CF37C1E390664000D202A /* Cartoon_Grunt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cartoon_Grunt.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		5B066A061DD230A700253BFF /* Vintage Superhero Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5B0CF37C1E390664000D202A /* Cartoon_Grunt.wav */,
+				5B0CF37A1E39065B000D202A /* Cartoon_Punch.wav */,
+				5B0CF3781E39011A000D202A /* SUPERHERO.ttf */,
 				5B066A071DD230A700253BFF /* AppDelegate.swift */,
 				5B066A091DD230A700253BFF /* ViewController.swift */,
 				5B066A0B1DD230A700253BFF /* Main.storyboard */,
@@ -91,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Darin Wilson";
 				TargetAttributes = {
 					5B066A031DD230A700253BFF = {
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0CF37B1E39065B000D202A /* Cartoon_Punch.wav in Resources */,
 				5B066A121DD230A700253BFF /* LaunchScreen.storyboard in Resources */,
+				5B0CF37D1E390664000D202A /* Cartoon_Grunt.wav in Resources */,
 				5B066A0F1DD230A700253BFF /* Assets.xcassets in Resources */,
+				5B0CF3791E39011A000D202A /* SUPERHERO.ttf in Resources */,
 				5B066A0D1DD230A700253BFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +194,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -302,6 +316,7 @@
 				5B066A181DD230A700253BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
